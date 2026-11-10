@@ -141,6 +141,16 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+      # 新增：埃隆·马斯克的推特（通过 RSSHub 获取）
+    - id: "twitter-musk"
+      name: "Elon Musk 推特"
+      url: "https://rsshub.app/twitter/user/elonmusk"
+      
+      # 新增：某个 YouTube 频道（比如 MrBeast）
+    - id: "youtube-mrbeast"
+      name: "MrBeast 视频"
+      url: "https://rsshub.app/youtube/user/@MrBeast"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
