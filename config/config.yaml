@@ -141,6 +141,15 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+      # 添加 GitHub 日榜热点
+    - id: "github-trending-daily"
+      name: "GitHub 日榜"
+      url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
+
+    - id: "dsh-plugin-index"
+      name: "DSH 插件生态更新"
+      url: "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commits/main.atom"
+
       # 新增：埃隆·马斯克的推特（通过 RSSHub 获取）
     - id: "twitter-musk"
       name: "马斯克推特"
